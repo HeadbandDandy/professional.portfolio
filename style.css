@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
+}
+body {
+    color: rgb(199, 8, 8);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(15, 15, 14);
+}
+
+header {
+    padding: 20px 45px;
+    background-color: gold;
+
+}
+header h1 {
+    font-weight: bold;
+    background-color:  gold ;
+    font-size: 42px;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    color:rgb(9, 9, 9);
+}
+header nav {
+    float: right;
+    margin: 10px 0;
+    text-decoration: underline;
+    color: rgb(199, 8, 8);
+    background-color: gold;
+}
+header nav ul li {
+    display: inline;
+    float: inline-end;
+    
+}
+header nav ul li a {
+    margin: 0px 25px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: gold;
+}
+header a {
+    color: rgb(199, 8, 8);
+    background-color: gold;
+
+}
+section {
+    padding: 40px 40px 40px;
+    width: 90%;
+    position:relative;
+}
+
+section h2 {
+   width: 300px;
+   border: 20px;
+   padding: 300px;
+   margin: 100px 0 0 0;
+    font-size: 40px;
+   align-items: center;
+   text-decoration: underline;
+}
+
+.hero {
+    background-image: url('../professional.portfolio/assets/DSC_6097.png');
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-class p {
+    border: 3px solid rgb(199, 8, 8);
+    background-color: gold;
+    padding: 30px 0 30px 0;
+    width: 80%;
+    height: 10%;
+    float:right;
+    content: normal;
+}
+.container {
+    font-style: italic;
+    text-align: center;
+
+}
+section h3 {
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
+}
+/* Add images for applications & buttons as well */
+
+

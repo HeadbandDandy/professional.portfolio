@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Professional Portfolio</title>
 </head>
 <body>
     <header>
         <h1>
-        <a href="/">DJ's WebDev Portfolio</a>
+        <a>DJ's WebDev Portfolio</a>
          </h1>
-        <nav>
+        <nav class="tabs">
             <ul>
                 <li>
                     <a href="#about-me">About Me</a>
@@ -29,48 +30,47 @@
     links need to be added to id/classes
 Hero section below contains about me and profile picture-->
     
-    <section class="hero">
+    <section class="hero" id="about-me">
         <div class="hero-class">
             <h2>
                 About Me
             </h2>
             <!-- insert image somewhere along this section-->
-            <p>
+            <p class="container">
             My name is Darryl Johnson, I often go by DJ or Deej. Some of my hobbies are
             traveling, flying drones, making videos, and video games. When not devloping
             applications you can find me in the gym, reading a book, or eating foods from
             different cultures in my local area. My goal is to create high quality experiences
-            for users at a company that encourages and implements diversity, teamwork, and great 
-            customer serivice. All while encouraging their employees to be the best they can be
+            for users at a company that encourages and implements diversity. A company that provides continued education, builds their employees, and is a team-based environment. All while encouraging their employees to be the best they can be
             for themselves.
             </p>
         </div>
     </section>
 
-
-  <section class="#web-devs">
+<!--Add images & create a column that displays content below evenly-->
+  <section class="devs" id="web-devs">
         <div class="#dev-class">
             <h3>
                 Developed Applications
             </h3>
-            <nav>
+            <nav class="columns">
                 <ul>
-                 <a href="/" >Run Buddy</a>  
+                 <a class="box" href="/" >Run Buddy</a>  
                 </ul>
                 <ul>
-                 <a href="/">Budget Application</a> 
+                 <a class="box" href="/">Budget Application</a> 
                 </ul>
                 <ul>
-                    <a href="/">Portfolio</a>
+                    <a class="box" href="/">Portfolio</a>
                 </ul>
                 <ul>
-                   <a href="/">Calculator</a>
+                   <a class="box" href="/">Calculator</a>
                 </ul>
                 <ul>
-                   <a href="/">Surf Report</a>
+                   <a class="box" href="/">Surf Report</a>
                 </ul>
                 <ul>
-                    <a href="/">Pastel Puzzles</a>
+                    <a class="box" href="/">Pastel Puzzles</a>
                 </ul>
             </nav>
             <!-- within this section build 
@@ -85,7 +85,7 @@ THEN I am taken to that deployed application-->
        
     </section>
 
-    <section class="#contact-me">
+    <section class="contact" id="contact-me">
         <div class="contact-methods">
             <h3>
                 Contacts
@@ -98,10 +98,10 @@ THEN I am taken to that deployed application-->
                     <a href="mailto:dandycodes@gmail.com?subject=subject text">DandyCodes@gmail.com</a>
                 </ul>
                 <ul>
-                    <!---LinkedIn-->
+                    <a href="https://www.linkedin.com/in/darryl-johnson-ii-154589165" target="_blank">LinkedIn</a>
                 </ul>
                 <ul>
-                    <!--GitHub-->
+                    <a href="https://github.com/HeadbandDandy" target="_blank">GitHub</a>
                 </ul>
             </nav>
         </div>
