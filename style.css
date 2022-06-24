@@ -70,12 +70,12 @@ section h2 {
 }
 
 .hero {
-    background-image: url('../professional.portfolio/assets/DSC_6097.png');
+    background-image: url('./assets/DSC_6097.png');
     height: 900px;
     width:85%;
     background-size: cover;
     background-position: center;
-    position: relative;
+    
 }
 .hero-class p {
     border: 3px solid rgb(199, 8, 8);
@@ -86,6 +86,9 @@ section h2 {
     float:right;
     content: normal;
 }
+/* Large Hero section background image
+add videos and gifs in later versions */
+
 .container {
     font-style: italic;
     text-align: center;
